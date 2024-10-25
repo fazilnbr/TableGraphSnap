@@ -1,0 +1,44 @@
+table, td, th, tr {
+    border: none;
+    border-collapse: collapse;
+    color: #404040;
+    font-size: 14px;
+  }
+  
+  th {
+    text-align: left;
+  }
+  
+  th, td {
+    border-bottom: 1px solid grey;
+    padding: 0.5rem;
+  }
+  
+  .table-date {
+    white-space: nowrap;
+  }
+  
+  p {
+    width: 100px;
+    height: 10px;
+    background: #93C5FD;
+    border-radius: 12px;
+    position: relative;
+  }
+  
+  span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: black;
+    border-radius: 12px;
+  }
+  
+  .wrapper {
+    padding: 1rem;
+    border-radius: 12px;
+    width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  
